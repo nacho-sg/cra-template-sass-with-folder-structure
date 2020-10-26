@@ -1,0 +1,14 @@
+@import 'styles/_colors';
+@import 'styles/_variables';
+
+.app {
+  &__header {
+    padding: $xl;
+    color: $white;
+    background-color: $dark-blue;
+    font-weight: $bold;
+  }
+  &__main {
+    padding: $xl;
+  }
+}
