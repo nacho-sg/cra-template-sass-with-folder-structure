@@ -1,0 +1,9 @@
+@import 'styles/_colors';
+
+.rq-app {
+  &__header {
+    height: 6rem;
+    color: $white;
+    background-color: $dark-blue;
+  }
+}
