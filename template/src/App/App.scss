@@ -1,9 +1,14 @@
 @import 'styles/_colors';
+@import 'styles/_variables';
 
-.rq-app {
+.app {
   &__header {
-    height: 6rem;
+    padding: $xl;
     color: $white;
     background-color: $dark-blue;
+    font-weight: $bold;
+  }
+  &__main {
+    padding: $xl;
   }
 }

@@ -4,7 +4,7 @@ import { APP } from 'i18n';
 
 import './App.scss';
 
-const blockName = 'rq-app';
+const blockName = 'app';
 
 function App() {
   return (
@@ -12,6 +12,9 @@ function App() {
       <header className={`${blockName}__header`}>
         {APP.HEADER}
       </header>
+      <main className={`${blockName}__main`}>
+        Enter your components here
+      </main>
     </div>
   );
 }
